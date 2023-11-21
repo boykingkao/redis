@@ -1,0 +1,28 @@
+version: '3'
+services:
+  redis:
+    image: redis
+    container_name: redis
+    ports:
+      - 6379:6379
+    networks:
+      - redis-net
+    volumes:
+      - ./redis-data:/data
+
+
+  redis_ui:
+    image: redislabs/redisinsight
+    container_name: redis_ui
+    ports:
+      - 8001:8001
+    networks:
+      - redis-net
+    volumes:
+      - ./redis-ui-data:/db
+      
+   
+    
+networks:
+  redis-net:
+    driver: bridge

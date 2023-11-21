@@ -1,0 +1,13 @@
+[
+    {
+        "id": "fbdc9af1-9169-4d37-856d-40f002a9f417",
+        "name": "test",
+        "host": "redis",
+        "port": 6379,
+        "username": "",
+        "password": "",
+        "tls": false,
+        "verifyServerCert": false,
+        "connectionType": "STANDALONE"
+    }
+]
