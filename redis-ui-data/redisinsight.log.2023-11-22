@@ -1,0 +1,7 @@
+WARNING 2023-11-22 08:06:47,448 django.request Bad Request: /api/instance/
+WARNING 2023-11-22 08:06:54,503 django.request Bad Request: /api/instance/
+WARNING 2023-11-22 08:07:16,827 django.request Bad Request: /api/instance/
+WARNING 2023-11-22 08:07:27,319 django.request Bad Request: /api/instance/
+WARNING 2023-11-22 08:08:17,570 django.request Bad Request: /api/instance/
+WARNING 2023-11-22 08:08:21,440 django.request Bad Request: /api/instance/
+WARNING 2023-11-22 08:51:08,763 django.request Unknown Status Code: /api/instance/169d09a0-a00c-4bbc-b63e-158f5924f9ba/edit/
