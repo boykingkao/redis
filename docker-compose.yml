@@ -6,7 +6,7 @@ services:
     ports:
       - 6379:6379
     networks:
-      - redis-net
+      - mssp
     volumes:
       - ./redis-data:/data
 
@@ -17,12 +17,12 @@ services:
     ports:
       - 8001:8001
     networks:
-      - redis-net
+      - mssp
     volumes:
       - ./redis-ui-data:/db
       
    
     
 networks:
-  redis-net:
-    driver: bridge
+  mssp:
+    external: true
